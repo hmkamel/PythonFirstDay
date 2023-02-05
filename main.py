@@ -1,3 +1,4 @@
+
 guyName = input("What is the guys name?").lower()
 girlName = input("What is the girls name?").lower()
 i = 0
@@ -18,9 +19,8 @@ for i in guyName:
         if i == j:
             q = q + 1
 print("For " + guyName)
-print("There are ", q , " letters in True")
-print("There are " , k , " letters that match in Love\n")
-
+print("There are ", q, " letters in True")
+print("There are ", k, " letters that match in Love\n")
 
 for i in girlName:
     for j in love:
@@ -30,8 +30,8 @@ for i in girlName:
         if i == j:
             p = p + 1
 print("For " + girlName)
-print("There are " , p , " letters in True")
-print("There are " , r , " letters that match in Love\n")
+print("There are ", p, " letters in True")
+print("There are ", r, " letters that match in Love\n")
 
 total_true = q + p
 total_love = k + r
@@ -42,9 +42,12 @@ print(tt_total, "\n")
 tt_final = int(tt_total)
 print(tt_final)
 
-if tt_final < 10 or tt_final > 90:
-    print("Your score is ", tt_final, " and you go together like coke and mentos\n")
 
-if tt_final > 40 and tt_final < 50:
-    print("Your score is ", tt_final, " and you are alright together")
+def calculate():
+    if tt_final < 10 or tt_final > 90:
+        print("Your score is ", tt_final, " and you go together like coke and mentos\n")
+
+    if tt_final > 40 and tt_final < 50:
+        print("Your score is ", tt_final, " and you are alright together")
+
 
