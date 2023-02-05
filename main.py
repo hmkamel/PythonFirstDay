@@ -37,4 +37,4 @@ total = finalLetter.__str__() + finalNumber.__str__()  + finalSymbol.__str__()
 
 finalPassword = list(total)
 rand.shuffle(finalPassword)
-print(''.join(finalPassword))
+print("Here is your password: " ,''.join(finalPassword))
