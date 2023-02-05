@@ -1,4 +1,3 @@
-
 guyName = input("What is the guys name?").lower()
 girlName = input("What is the girls name?").lower()
 i = 0
